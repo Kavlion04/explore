@@ -1,0 +1,29 @@
+@import "./veriable";
+@import "./fonts";
+@import "./header";
+@import "./main";
+@import "./footer";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.contianer {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header {
+    background-image: url("../assets/images/mountian.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+
