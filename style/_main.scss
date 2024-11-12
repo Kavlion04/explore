@@ -1,0 +1,734 @@
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 460px;
+    background-color: transparent;
+    background-color: #0000004A;
+    padding: 30px;
+    text-transform: initial;
+
+    .t-box {
+        color: $bg;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 900;
+        line-height: 18.75px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        margin-bottom: 10px;
+
+    }
+
+    b {
+        color: $text;
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size: 20px;
+
+
+    }
+
+    p {
+        color: #939393;
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-size: 18px;
+
+    }
+    @media(max-width: 700px) {
+        flex-direction: column;
+        align-items: center;
+        display: none;
+
+    }
+
+}
+
+.div-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $text;
+    position: relative;
+    top: 50%;
+    left: 50%;
+
+    img {
+        position: absolute;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, -55%);
+    }
+
+}
+
+.mauntian {
+    background-image: url("../assets/images/Rectangle\ 9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+@media (max-width: 700px) {
+    .mauntian .cont {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.mauntian .cont {
+    background: linear-gradient(#010A20, #010a207e);
+    width: 100%;
+    height: 100%;
+    @media(max-width: 700px) {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+.mountian2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    @media(max-width: 700px) {
+        flex-direction: column;
+       
+    }
+
+   
+    
+
+}
+
+.mauntian21 img {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    top: 200px;
+    left: 150px;
+    transform: scale(1.1);
+
+}
+
+.btn-2 {
+    padding: 20px 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: $bg;
+    color: $text;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.text-boxs {
+    position: relative;
+    left: 680px;
+    top: -100px;
+
+    h2 {
+        color: $text;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #939393;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+.desert {
+    background-image: url("../assets/images/Rectangle\ 10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.desert .cont {
+    background: linear-gradient(#010A20, #010a207e);
+    width: 100%;
+    height: 100%;
+}
+
+.img {
+    position: relative;
+    left: 550px;
+    top: -250px;
+}
+
+.btn-2:hover {
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+    cursor: pointer;
+    background-color: $text;
+    color: $bg;
+    font-size: 18px;
+
+
+
+}
+
+.img:hover {
+    transform: scale(0.9);
+    transition: all 0.7s ease-in-out;
+
+}
+
+.text-boxs2 {
+    position: relative;
+    left: 180px;
+    top: 200px;
+}
+
+.mauntian21 img:hover {
+    transform: scale(0.9);
+    transition: all 0.7s ease-in-out;
+}
+@media(max-width: 700px) {
+    .mauntian12 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+h4 {
+    color: #010A20;
+    font-family: "DM Sans";
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+
+
+}
+
+.froggy {
+    background-image: url("../assets/images/froggy.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150vh;
+    width: 100%;
+
+}
+
+.carausel {
+    width: 200px;
+    height: 200px;
+
+}
+
+.carausel img {
+    width: 300px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.carausel button {
+    margin-left: 50px;
+}
+
+.back {
+    background-color: #010a20b2;
+    width: 100%;
+    height: 40vh;
+    margin-top: 410px;
+    padding: 20px;
+
+
+    h5 {
+        color: $text;
+        font-family: "DM Sans";
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+
+
+    }
+
+    p {
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: $title;
+
+    }
+}
+@media (max-width: 700px) {
+    .back {
+        
+        flex-direction: column;
+        align-items: center;
+        margin-top: -30px;
+        height: 100vh;
+    }
+    .box-all {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        
+    }
+    .seen {
+       position: relative;
+       top: -300px;
+    }
+    .contents {
+        margin-left: -500px;
+        margin-bottom: 100px;
+        
+        
+    }
+    .img1 {
+        height: 300px;
+        width: 300px;
+        margin-top: 200px;
+    }
+    .img2 {
+        height: 300px;
+        width: 300px;
+        margin-top: 200px;
+    }
+    .section-4 {
+        flex-direction: column;
+        margin-bottom: 600px;
+        margin-top: -140px;
+        height: 200vh;
+    }
+    .all-section {
+        flex-direction: column;
+    }
+    .bold {
+        position: relative;
+        left: -100px;
+    }
+    .section-7 {
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .video {
+        margin-left: 300px;
+        flex-direction: column;
+    }
+    footer  {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        margin-left: 600px;
+    }
+    .box-3-3 {
+        display: none;
+    }
+    .iconss {
+        
+    }
+}
+
+.box-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+}
+
+.box-all b {
+    position: relative;
+    left: 110px;
+    color: $bg;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "DM Sans";
+    margin-bottom: 20px;
+}
+
+.box-all p {
+    font-family: "DM Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+.contents {
+    position: relative;
+    z-index: 2;
+    top: 500px;
+    left: 600px;
+
+    h6 {
+        font-family: "DM Sans";
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: start;
+        text-decoration-skip-ink: none;
+        margin-bottom: 30px;
+
+    }
+
+    p {
+        color: #6F7787;
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.5px;
+        text-align: start;
+        text-decoration-skip-ink: none;
+        margin-top: 30px;
+    }
+
+
+
+}
+
+.img1 {
+    position: relative;
+    top: -289px;
+}
+
+.img2 {
+    position: relative;
+    top: 160px;
+    left: 109px;
+
+}
+
+.bt {
+    position: relative;
+    left: 100px;
+}
+
+.section-4 {
+    background-image: url("../assets/images/savannnah.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    padding: 20px;
+
+    .bold {
+        color: $text;
+        font-family: "DM Sans";
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        display: inline-block;
+        align-items: center;
+        margin-left: 300px;
+
+    }
+
+}
+
+.active {
+    background-color: #010a20c8;
+}
+
+.images-men {
+    background-image: url("../assets/images/image\ 2\ \(1\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    margin-top: 100px;
+    position: relative;
+    left: 27%;
+
+    .images-box {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #E93A7D;
+        position: absolute;
+        left: 45%;
+        top: 40%;
+
+        img {
+            position: absolute;
+            left: 40%;
+            top: 30%;
+        }
+    }
+
+    .images-box:hover {
+        background-color: #010a20b2;
+    }
+}
+
+.images-men:hover {
+    transition: all 0.5 ease-in-out;
+    transform: scale(0.9);
+    box-shadow: #0000004F 0 0 10px;
+}
+
+.ima {
+    width: 200px;
+    height: 150px;
+}
+
+.ima:hover {
+    transition: all 0.5 ease-in-out;
+    transform: scale(0.9);
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    b {
+        font-size: 18px;
+        color: $text;
+        font-family: "DM Sans";
+        font-weight: 700;
+        margin-bottom: 30px;
+
+
+    }
+
+    p {
+        color: $text;
+        opacity: 70%;
+        margin-top: 10px;
+    }
+}
+
+.all-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 70px;
+
+}
+
+.section-6 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    b {
+        font-size: 18px;
+        font-family: "DM Sans";
+        font-weight: 700;
+        color: $text;
+        margin-bottom: 20px;
+
+    }
+
+    p {
+        color: $text;
+        opacity: 70%;
+        margin-top: 10px;
+    }
+}
+
+.section-7 {
+
+    b {
+        font-size: 48px;
+        font-family: "DM Sans";
+        font-weight: 700;
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 470px;
+    }
+
+    p {
+        text-align: center;
+        opacity: 70%;
+        margin-top: 10px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+
+}
+
+.grid-contents {
+    width: 300px;
+    height: 300px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.section-8 {
+    background-color: #DCE8F2;
+    padding: 20px 0;
+    width: 100%;
+    height: 165vh;
+}
+
+.boldss {
+    font-family: "DM Sans";
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20px;
+
+}
+
+.flor {
+    width: 700px;
+    height: 5px;
+    background-color: #15143966;
+    transform: rotate(90deg);
+    position: relative;
+    top: 450px;
+    left: -330px;
+
+}
+
+.box1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E93A7D;
+}
+
+.box2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E93A7D;
+
+}
+
+.box3 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #E93A7D;
+
+}
+
+.boxess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    position: relative;
+    bottom: 0;
+    top: 430px;
+    left: -620px;
+
+    transform: rotate(90deg);
+
+    p {
+        color: $text;
+        opacity: 70%;
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: "DM Sans";
+        font-weight: 700;
+        transform: rotate(-90deg);
+        position: relative;
+        top: -20px;
+    }
+}
+
+.box-3 {
+    position: relative;
+    left: 100px;
+    top: 20px;
+    b {
+        color: #010A20;
+        margin-top: 10px;
+        font-size: 30px;
+        font-family: "DM Sans";
+        font-weight: 700;
+       
+        
+    }
+    p {
+        color: #010A20;
+        opacity: 70%;
+        font-size: 18px;
+        font-family: "DM Sans";
+        font-weight: 700;
+    }
+}
+.box-3-1 {
+    position: relative;
+    top: 10px;
+}
+.box-3-2 {
+    position: relative;
+    top: 220px;
+}
+.box-3-3 {
+    position: relative;
+    top: 280px;
+}
+
+
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    left: -320px;
+
+    b {
+        font-family: "DM Sans";
+        font-size: 24px;
+        font-weight: 700;
+        color: #010A20;
+        margin-bottom: 20px;
+    }
+    p {
+        font-family: "DM Sans";
+        font-size: 18px;
+        font-weight: 400;
+        color: #010A20;
+        opacity: 70%;
+        margin-top: 30px;
+    }
+
+}

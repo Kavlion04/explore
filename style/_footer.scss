@@ -1,0 +1,40 @@
+footer {
+    padding: 10px 20px;
+    background-color: #010A20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            margin-right: 650px;
+        }
+        ul li {
+            list-style: none;
+            color: $text;
+            cursor: pointer;
+        }
+    }
+}
+.iconss {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    color: $text;
+    img {
+        cursor: pointer;
+    }
+    p {
+        color: $text;
+        margin-top: 10px;
+    }
+}

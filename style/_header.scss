@@ -1,0 +1,193 @@
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url("../assets/images/mountian.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+
+
+header .cont {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#0000004F, #0000004A);
+
+
+    .logo {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        padding: 0 40px;
+
+
+
+    }
+
+    img {
+        cursor: pointer;
+    }
+
+   
+
+}
+
+.logo ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0 40px;
+    @media (max-width: 700px) {
+        display: none;
+    }
+
+
+
+
+
+}
+
+.logo ul li a {
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 0 40px;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 90px;
+    text-transform: uppercase;
+    text-align: start;
+    position: relative;
+    left: 150px;
+    top: 100px;
+    
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
+}
+
+.bro {
+    width: 350px;
+    height: 6px;
+    background-color: $text;
+    position: relative;
+    transform: rotate(90deg);
+    top: 250px;
+    left: -250px;
+
+
+    .bro-img {
+        width: 100px;
+        height: 10px;
+        background-color: $bg;
+        position: absolute;
+        top: -2px;
+
+
+    }
+
+}
+
+.text-box {
+    position: relative;
+
+    .text {
+        color: $text;
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        transform: rotate(-90deg);
+        position: absolute;
+        top: 450px;
+        left: -80px;
+
+
+    }
+
+    .text-2 {
+        bottom: -200px;
+        top: 600px;
+        display: flex;
+        gap: 20px;
+        left: -130px;
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn {
+
+    padding: 30px;
+    border-radius: 30px;
+    background-color: $bg;
+    position: relative;
+    top: 100px;
+    width: 200px;
+    left: 150px;
+    border: none;
+    color: $text;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+
+.btn:hover {
+    background-color: $text;
+    color: $bg;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: #939393 0px 0px 50px;
+    font-size: 14px;
+}
+
+.boxs {
+    background-image: url("../assets/images/beach.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 1120px;
+    top: 110px;
+
+
+
+}
+
+.boxs:hover {
+    box-shadow: #ffffff4a 0px 0px 50px;
+}
