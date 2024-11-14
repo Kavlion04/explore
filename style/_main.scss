@@ -17,8 +17,7 @@
         font-weight: 900;
         line-height: 18.75px;
         text-align: left;
-        text-underline-position: from-font;
-        text-decoration-skip-ink: none;
+       
         margin-bottom: 10px;
 
     }
@@ -62,6 +61,7 @@
         top: 50%;
         left: 55%;
         transform: translate(-50%, -55%);
+        transition: all 0.5 ease-in-out;
     }
 
 }
@@ -113,6 +113,7 @@
     top: 200px;
     left: 150px;
     transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
 
 }
 
@@ -254,6 +255,7 @@ h4 {
     height: 40vh;
     margin-top: 410px;
     padding: 20px;
+    
 
 
     h5 {
@@ -728,5 +730,127 @@ h4 {
         opacity: 70%;
         margin-top: 30px;
     }
+    img {
+        transition: all 0.7s ease-in-out;
+    }
 
+}
+.btn-2 {
+    transition: all 0.7s ease-in-out;
+}
+.video img:hover {
+    transform: scale(0.9);
+    transition: all 0.7s ease-in-out;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))repeat(3, 100px);
+    grid-template-rows:repeat(3, 100px);
+    gap: 10px;
+    grid-template-areas: 
+    "img1 img3 img5"
+    "img1 img3 img5"
+    "img1 img3 img5"
+    "img1 img3 img6"
+    "img2 img4 img6"
+    "img2 img4 img6";
+    
+  
+}
+
+.grid-item {
+    overflow: hidden;
+    border-radius: 8px;
+    position: relative;
+    left: 200px;
+   
+}
+
+
+#backToTopBtn {
+    display: flex; /* Boshida tugma ko'rinmaydi */
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    background-color: $bg;
+    color: white;
+    border: none;
+    outline: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    img {
+        position: relative;
+        left: 5px;
+        top: 10px;
+    }
+}
+@media(max-width: 700px) {
+    #backToTopBtn {
+        position: relative;
+        left: 300px;
+        top: 30px;
+        margin-bottom: 30px;
+    }
+    .flor {
+        display: none;
+    }
+    .section-4 {
+        height: 200vh;
+    }
+    .logo {
+        ul {
+            li {
+                display: none;
+            }
+        }
+    }
+    header {
+        height: 150vh;
+    }
+}
+
+#backToTopBtn:hover {
+    background-color: #555; /* Hover effekti */
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: all 0.7s ease-in-out;
+    transform: scale(1);
+}
+.grid-item img:hover {
+    transform: scale(0.9);
+    transition: all 0.7s ease-in-out;
+    box-shadow: #000000 0px 10px 20px;
+}
+.grid-item:nth-child(1) {
+    grid-area: img1;   
+}
+.grid-item:nth-child(2) {
+    grid-area: img2; ;   
+}
+.grid-item:nth-child(3) {
+    grid-area: img3;   
+}
+.grid-item:nth-child(4) {
+    grid-area: img4;   
+    position: relative;
+    top: -270px;
+}
+.grid-item:nth-child(5) {
+    grid-area: img5;   
+}
+.grid-item:nth-child(6) {
+    grid-area: img6;   
+    position: relative;
+    top: -10px;
 }

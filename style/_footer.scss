@@ -22,6 +22,10 @@ footer {
             color: $text;
             cursor: pointer;
         }
+        a {
+            list-style: none;
+            flex-direction: column;
+        }
     }
 }
 .iconss {
